@@ -13,7 +13,7 @@ public class Collections {
     String[] langs = {"Java","C#","Python","PHP"};
 
     for (String l : langs){
-      System.out.println("I'd like to learn language " + l);
+    //  System.out.println("I'd like to learn language " + l);
     }
 
     //  List<String> languages = new ArrayList<String>();
@@ -23,7 +23,13 @@ public class Collections {
     List<String> languages = Arrays.asList("Java","C#","Python","PHP");
 
     for (int i = 0; i < languages.size(); i++) {
-      System.out.println("I'd like to learn language " + languages.get(i));
+     // System.out.println("I'd like to learn language " + languages.get(i));
+    }
+
+    List languages2 = Arrays.asList("Java","C#","Python","PHP");
+
+    for (Object l : languages2) {
+      System.out.println("I'd like to learn language " + l);
     }
 
 
